@@ -1,12 +1,10 @@
 <?php 
 namespace app\home\controller;
-use app\common\controller\Homebase;
-use think\Request;
+use app\common\controller\HomeBase;
 use think\Db;
 
-class Index extends Homebase{
+class Index extends HomeBase{
 	public function index(){
-		echo "test";
 		return view();
 	}
 	
